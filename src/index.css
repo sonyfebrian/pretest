@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* //carousel */
+.slider-control-bottomcenter button {
+    margin: 5px
+}

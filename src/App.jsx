@@ -1,13 +1,14 @@
-import Navbar from "./components/Navbar";
-import People from "./components/People";
+import Home from "./views/Home";
+import { Routes, Route } from "react-router-dom";
+import Notification from "./views/Notification";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <div className="container  px-5 py-24 mx-auto flex flex-wrap">
-        <People />
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/notification" element={<Notification />} />
+      </Routes>
     </>
   );
 }

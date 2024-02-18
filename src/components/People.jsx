@@ -8,10 +8,8 @@ const People = () => {
     : [1, 2];
   return (
     <>
-      <h2 className="text-gray-900  text-lg title-font font-medium mb-3">
-        Online
-      </h2>
-      <div className="flex shadow-[0_8px_30px_rgb(0,0,0,0.12)] w-full  rounded-lg p-8 justify-center items-center mx-auto">
+      <h2 className="text-gray-900  text-lg font-bold mb-3">Online</h2>
+      <div className="flex shadow-[0_8px_30px_rgb(0,0,0,0.12)] w-full  mb-10 rounded-lg p-8 justify-center items-center mx-auto">
         {itemsToRender.map((index) => (
           <div
             key={index}
